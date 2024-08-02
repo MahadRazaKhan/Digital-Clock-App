@@ -17,7 +17,7 @@
     width: 100%; 
     max-width: 1200px; 
     height: auto;
-    max-height:100px;
+    padding:10px;
     position: absolute;
     top: 50%;
     left: 50%;
