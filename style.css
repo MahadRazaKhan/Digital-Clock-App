@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://images.hdqwalls.com/download/simple-gray-abstract-background-wi-2560x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    width: 100%; 
+    max-width: 1200px; 
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('https://fonts.cdnfonts.com/s/24034/Digital7-1e1x.woff2') format('woff2'),
+         url('https://fonts.cdnfonts.com/s/24034/Digital7-1e1x.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clock {
+    font-family: 'Digital-7', 'Courier New', Courier, monospace;
+    font-size: 10vw; /* Relative font size based on viewport width */
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.clock span {
+    font-size: 0.8em; /* Relative font size */
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 0 10px;
+}
+
+.clock span::after {
+    font-size: 0.3em;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hrs::after {
+    content: "HOURS";
+    color: white;
+}
+
+#min::after {
+    content: "MIN";
+    color: white;
+}
+
+#sec::after {
+    content: "SEC";
+    color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .clock {
+        font-size: 15vw; /* Larger font size for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .clock {
+        font-size: 18vw; /* Even larger font size for very small screens */
+        padding: 10px;
+    }
+
+    .clock span::after {
+        bottom: -15px; /* Adjust label position */
+    }
+}
