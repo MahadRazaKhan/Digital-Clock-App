@@ -2,7 +2,7 @@
 
 This **Digital Clock** is a simple, elegant, and fully responsive clock that displays the current time in real-time. Built using HTML, CSS, and JavaScript, it offers a clean and minimal design that works seamlessly across all devices.
 
-![Digital Clock Screenshot]()
+![Digital Clock Screenshot](Screenshot_2024_11_29-5.png)
 
 ---
 
@@ -14,7 +14,7 @@ This **Digital Clock** is a simple, elegant, and fully responsive clock that dis
 
 ---
   
-![Digital Clock Demo](images/digital-clock-demo.gif)
+![Digital Clock Demo](https://static.bodet-time.com/images/stories/EN/products-pages/style/style7/style7-multiple-display.gif)
 
 ---
 
