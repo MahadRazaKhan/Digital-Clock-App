@@ -13,10 +13,6 @@ This **Digital Clock** is a simple, elegant, and fully responsive clock that dis
 - **Modern UI**: Minimalistic and clean interface.
 
 ---
-  
-![Digital Clock Demo](https://static.bodet-time.com/images/stories/EN/products-pages/style/style7/style7-multiple-display.gif)
-
----
 
 ## Technologies Used
 
@@ -25,3 +21,5 @@ This **Digital Clock** is a simple, elegant, and fully responsive clock that dis
 - **JavaScript (ES6)** for real-time functionality.
 
 ---
+
+![Digital Clock Demo](https://static.bodet-time.com/images/stories/EN/products-pages/style/style7/style7-multiple-display.gif)
